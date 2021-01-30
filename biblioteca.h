@@ -29,5 +29,5 @@ int pilha_cheia( Pilha p );
 int empilha( Pilha *p, int info );
 int desempilha( Pilha *p, int *info );
 int le_topo( Pilha p, int *info );
-void mostra_pilha( Pilha p );
+int Retorna_pilha( Pilha p );
 void desaloca_pilha( Pilha *p );
